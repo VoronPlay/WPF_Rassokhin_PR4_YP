@@ -1,0 +1,34 @@
+﻿<Window x:Class="WPF_Rassokhin_PR4_YP.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_Rassokhin_PR4_YP"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="odin" Width="60" Height="30" Content="Задание 1" Click="z_odin" Margin="0,0,0,0"/>
+        <Button x:Name="dva" Width="60" Height="30" Content="Задание 2" Click="z_dva" Margin="150,0,0,0"/>
+        <Button x:Name="Tri" Width="60" Height="30" Content="Задание 3" Click="z_Tri" Margin="300,0,0,0"/>
+        <Button x:Name="Hetire" Width="60" Height="30" Content="Задание 4" Click="z_Hetire" Margin="450,0,0,0"/>
+        <Button x:Name="Payti" Width="60" Height="30" Content="Задание 5" Click="z_Payti" Margin="0,0,150,0"/>
+        <Button x:Name="Shesti" Width="60" Height="30" Content="Задание 6" Click="z_Shesti" Margin="0,0,300,0"/>
+        <Button x:Name="Seni" Width="60" Height="30" Content="Задание 7" Click="z_Seni" Margin="0,0,450,0"/>
+        <Button x:Name="Voseni" Width="60" Height="30" Content="Задание 8" Click="z_Voseni" Margin="0,0,600,0"/>
+        <Button x:Name="Devyati" Width="60" Height="30" Content="Задание 9" Click="z_Devyati" Margin="450,100,0,0"/>
+        <Button x:Name="Desayti" Width="65" Height="30" Content="Задание 10" Click="z_Desayti" Margin="600,0,0,0"/>
+        <Button x:Name="Odinadhati" Width="65" Height="30" Content="Задание 11" Click="z_Odinadhati" Margin="600,100,0,0"/>
+        <Button x:Name="Dvinadhati" Width="65" Height="30" Content="Задание 12" Click="z_Dvinadhati" Margin="300,100,0,0"/>
+        <Button x:Name="Trinabhati" Width="65" Height="30" Content="Задание 13" Click="z_Trinabhati" Margin="150,100,0,0"/>
+        <Button x:Name="Hetirnadhati" Width="65" Height="30" Content="Задание 14" Click="z_Hetirnadhati" Margin="0,100,0,0"/>
+        <Button x:Name="Pitnadhati" Width="65" Height="30" Content="Задание 15" Click="z_Pitnadhati" Margin="0,100,150,0"/>
+        <Button x:Name="Hesnadhati" Width="65" Height="30" Content="Задание 16" Click="z_Hesnadhati" Margin="0,100,300,0"/>
+        <Button x:Name="Seninadhati" Width="65" Height="30" Content="Задание 17" Click="z_Seninadhati" Margin="0,100,450,0"/>
+        <Button x:Name="Voseminadhati" Width="65" Height="30" Content="Задание 18" Click="z_Voseminadhati" Margin="0,100,600,0"/>
+        <Button x:Name="Devetinadhati" Width="65" Height="30" Content="Задание 19" Click="z_Devetinadhati" Margin="0,200,600,0"/>
+        <Button x:Name="Dvadhati" Width="65" Height="30" Content="Задание 20" Click="z_Dvadhati" Margin="0,200,450,0"/>
+        <Button x:Name="DvadhatiOdin" Width="65" Height="30" Content="Задание 21" Click="z_DvadhatiOdin" Margin="0,200,300,0"/>
+        <Button x:Name="DvadhatiDva" Width="65" Height="30" Content="Задание 22" Click="z_DvadhatiDva" Margin="0,200,150,0"/>
+        <Button x:Name="DvadhatiTri" Width="65" Height="30" Content="Задание 23" Click="z_DvadhatiTri" Margin="0,200,0,0"/>
+    </Grid>
+</Window>

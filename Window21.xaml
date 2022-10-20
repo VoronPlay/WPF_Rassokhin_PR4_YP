@@ -1,0 +1,60 @@
+﻿<Window x:Class="WPF_Rassokhin_PR4_YP.Window21"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_Rassokhin_PR4_YP"
+        mc:Ignorable="d"
+        Title="Window21" Height="450" Width="800">
+    <Grid>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="3*"/>
+                <RowDefinition Height="7*"/>
+                <RowDefinition Height="10*"/>
+                <RowDefinition Height="4*"/>
+                <RowDefinition Height="10*"/>
+                <RowDefinition Height="11*"/>
+                <RowDefinition Height="4*"/>
+                <RowDefinition Height="6*"/>
+                <RowDefinition Height="4*"/>
+                <RowDefinition Height="10*"/>
+                <RowDefinition Height="18*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="26*"/>
+                <ColumnDefinition Width="21*"/>
+                <ColumnDefinition Width="3*"/>
+                <ColumnDefinition Width="18*"/>
+                <ColumnDefinition Width="3*"/>
+                <ColumnDefinition Width="32*"/>
+                <ColumnDefinition Width="3*"/>
+                <ColumnDefinition Width="8*"/>
+                <ColumnDefinition Width="3*"/>
+                <ColumnDefinition Width="9*"/>
+                <ColumnDefinition Width="30*"/>
+                <ColumnDefinition Width="2*"/>
+            </Grid.ColumnDefinitions>
+            <Label Content="Имя" Grid.Column="1" Grid.Row="1" Grid.RowSpan="1" Grid.ColumnSpan="2"/>
+            <Label Content="Фамилия" Grid.Column="4" Grid.Row="1" Grid.RowSpan="1" Grid.ColumnSpan="5"/>
+            <Label Content="Имя пользователя" Grid.Column="8" Grid.Row="1" Grid.RowSpan="1" Grid.ColumnSpan="4"/>
+            <Label Content="Город" Grid.Column="1" Grid.Row="4" Grid.RowSpan="1" Grid.ColumnSpan="2"/>
+            <Label Content="Область" Grid.Column="6" Grid.Row="4" Grid.RowSpan="1" Grid.ColumnSpan="1"/>
+            <Label Content="Индекс" Grid.Column="10" Grid.Row="4" Grid.RowSpan="1" Grid.ColumnSpan="2"/>
+            <CheckBox Content="Примите условия и соглашения" Grid.Column="1" Grid.Row="7" Grid.RowSpan="1" Grid.ColumnSpan="2"/>
+            <Button Background="Aquamarine" Content="Отправить форму" Grid.Column="1" Grid.Row="9" Grid.RowSpan="1" Grid.ColumnSpan="1"/>
+            <TextBox Grid.Column="1" Grid.Row="5" Grid.RowSpan="1" Grid.ColumnSpan="4"/>
+            <TextBox Grid.Column="10" Grid.Row="5" Grid.RowSpan="1" Grid.ColumnSpan="2"/>
+            <TextBox Grid.Column="1" Grid.Row="2" Grid.RowSpan="1" Grid.ColumnSpan="2"/>
+            <TextBox Grid.Column="4" Grid.Row="2" Grid.RowSpan="1" Grid.ColumnSpan="3"/>
+            <TextBox Grid.Column="8" Grid.Row="2" Grid.RowSpan="1" Grid.ColumnSpan="4"/>
+            <ComboBox Background="White" FontSize="20"  Grid.Column="6" Grid.Row="5" Grid.RowSpan="1" Grid.ColumnSpan="3" >
+                <TextBlock>Один</TextBlock>
+                <TextBlock>Два</TextBlock>
+                <TextBlock>Три</TextBlock>
+                <TextBlock>Четыре</TextBlock>
+            </ComboBox>
+        </Grid>
+    </Grid>
+</Window>

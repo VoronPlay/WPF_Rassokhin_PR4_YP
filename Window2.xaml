@@ -1,0 +1,68 @@
+﻿<Window x:Class="WPF_Rassokhin_PR4_YP.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_Rassokhin_PR4_YP"
+        mc:Ignorable="d"
+        Title="Window2" Height="450" Width="800">
+    <Window.Resources>
+        <Style x:Key="BlackAndWhite">
+            <Setter Property="Control.FontFamily" Value="Verdana" />
+            <Setter Property="Control.Background" Value="Aqua" />
+            <Setter Property="Control.Foreground" Value="Black" />
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="185*"/>
+                <RowDefinition Height="75*"/>
+                <RowDefinition Height="105*"/>
+                <RowDefinition Height="70*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Button FontSize="20" Style="{StaticResource BlackAndWhite}" Height="50" Width="50" Grid.Row="0" HorizontalAlignment="Center"
+                Content="1" Grid.RowSpan="6" />
+            <Button FontSize="20" Style="{StaticResource BlackAndWhite}" Height="50" Width="50" Grid.Column="1" HorizontalAlignment="Center"
+                Content="1" Grid.RowSpan="6" />
+            <Button FontSize="20" Style="{StaticResource BlackAndWhite}" Height="50" Width="50" Grid.Column="2" HorizontalAlignment="Center"
+                Content="1" Grid.RowSpan="6" />
+            <Button FontSize="20" Style="{StaticResource BlackAndWhite}" Height="50" Width="50" Grid.Column="3" HorizontalAlignment="Center"
+                Content="1" Grid.RowSpan="6" />
+            <Button FontSize="20" Style="{StaticResource BlackAndWhite}" Height="50" Width="50" Grid.Column="4" HorizontalAlignment="Center"
+                Content="1" Grid.RowSpan="6" />
+            <Button FontSize="20" Style="{StaticResource BlackAndWhite}" Height="50" Width="50" Grid.Column="5" HorizontalAlignment="Center"
+                Content="1" Grid.RowSpan="6" />
+            <Button FontSize="20" Height="50" Style="{StaticResource BlackAndWhite}" Width="50" Grid.Column="6" HorizontalAlignment="Center"
+                Content="1" Grid.RowSpan="6" />
+            <Button FontSize="20" Height="50" Style="{StaticResource BlackAndWhite}" Width="50" Grid.Column="7" HorizontalAlignment="Center"
+                Content="1" Grid.RowSpan="6" />
+            <Button FontSize="20" Height="50" Style="{StaticResource BlackAndWhite}" Width="50" Grid.Column="8" HorizontalAlignment="Center"
+                Content="1" Grid.RowSpan="6" />
+            <Button FontSize="20" Height="50" Style="{StaticResource BlackAndWhite}" Width="50" Grid.Column="9" HorizontalAlignment="Center"
+                Content="1" Grid.RowSpan="6" />
+            <Button FontSize="20" Height="50" Style="{StaticResource BlackAndWhite}" Width="50" Grid.Column="10" HorizontalAlignment="Center"
+                Content="1" Grid.RowSpan="6" />
+            <Button FontSize="20" Height="50" Style="{StaticResource BlackAndWhite}" Width="50" Grid.Column="11" HorizontalAlignment="Center"
+                Content="1" Grid.RowSpan="6" />
+            <Button FontSize="20" Height="50" Style="{StaticResource BlackAndWhite}" Width="50" Grid.Column="12" HorizontalAlignment="Center"
+                Content="1" Grid.RowSpan="6" />
+
+        </Grid>
+    </Grid>
+</Window>
